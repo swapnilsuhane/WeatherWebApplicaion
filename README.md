@@ -82,6 +82,14 @@ Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
 -    If you enter any invalid zipcode (ex. 100) you will get validation message 'Invalid ZipCode Format'
 -    If you enter any valid zipcode that does not exist (ex. 10000) you will get a javascript validation message 'ZipCode Not Found !!'
 
+#  Importing Existing Maven Project into eclipse
+-     You can also import the maven application into eclipse
+-     Import the project using below eclipse path. File -> Import -> Existing Maven Projects -> Next -> Browse
+-     Save the zip content from gits into your local machine and unzip it somewhere. 
+-     Now select the maven project unzipped folder in your local machine. It will find the pom.xml
+-     Select the pom.xml and click Next
+-     Select all the jars files in the link and click Finish.
+-     You have successfully imported Maven 'WeatherApp' project into eclipse.
 
 # Import application using WeatherApp.war
 -   You can also import the war file directly to deploy into tomcat and run the webApp.
